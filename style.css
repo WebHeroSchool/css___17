@@ -1,3 +1,20 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fa8072;
+}
+
+.nav a {
+  color: #8b0000;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.nav a:hover {
+  background: #adff2f;
+}
+
 @media (min-width: 320px) {
   .title {
     font-size: 4px;
@@ -5,12 +22,21 @@
 }
 
 @media (min-width: 481px) {
+  .nav {
+    flex-direction: column;
+  }
   .title {
     font-size: 16px;
   }
 }
 
 @media (min-width: 641px) {
+  .nav {
+    justify-content: space-around;
+  }
+  .nav a {
+    flex-grow: 1;
+  }
   .title {
     font-size: 28px;
   }
