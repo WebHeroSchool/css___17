@@ -1,3 +1,11 @@
+.line {
+  width: 25px;
+  weight: 5px;
+  background-color: #8b0000;
+  padding: 2px 5px;
+  margin: 3px 0;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -40,11 +48,19 @@
   .title, .nav{
     font-size: 32px;
   }
+  .line {
+    width: 30px;
+    padding: 3px 7px;
+  }
 }
 
 @media (min-width: 961px) {
   .title, .nav {
     font-size: 40px;
+  }
+  .line {
+    width: 35px;
+    padding: 4px 9px;
   }
 }
 
@@ -52,10 +68,18 @@
   .title, .nav {
     font-size: 48px;
   }
+  .line {
+    width: 40px;
+    padding: 5px 10px;
+  }
 }
 
 @media (min-width: 1281px) {
   .title, .nav {
     font-size: 56px;
+  }
+  .line {
+    width: 45px;
+    padding: 6px 12px;
   }
 }
