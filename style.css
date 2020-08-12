@@ -1,6 +1,6 @@
 .line {
   width: 25px;
-  weight: 5px;
+  font-weight: 600;
   background-color: #8b0000;
   padding: 2px 5px;
   margin: 3px 0;
@@ -24,8 +24,12 @@
 }
 
 @media (min-width: 320px) {
-  .title, .nav {
+  .title {
     font-size: 16px;
+  }
+
+  .nav a {
+    opacity: 0;
   }
 }
 
@@ -33,8 +37,18 @@
   .nav {
     flex-direction: column;
   }
-  .title, .nav {
+
+  .title,
+  .nav {
     font-size: 24px;
+  }
+
+  .nav a {
+    opacity: 1;
+  }
+
+  .buger {
+    opacity: 0;
   }
 }
 
@@ -42,12 +56,16 @@
   .nav {
     justify-content: space-around;
   }
+
   .nav a {
     flex-grow: 1;
   }
-  .title, .nav{
+
+  .title,
+  .nav {
     font-size: 32px;
   }
+
   .line {
     width: 30px;
     padding: 3px 7px;
@@ -58,6 +76,7 @@
   .title, .nav {
     font-size: 40px;
   }
+
   .line {
     width: 35px;
     padding: 4px 9px;
@@ -68,6 +87,7 @@
   .title, .nav {
     font-size: 48px;
   }
+
   .line {
     width: 40px;
     padding: 5px 10px;
@@ -78,6 +98,7 @@
   .title, .nav {
     font-size: 56px;
   }
+
   .line {
     width: 45px;
     padding: 6px 12px;
