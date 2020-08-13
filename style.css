@@ -73,7 +73,8 @@
 }
 
 @media (min-width: 961px) {
-  .title, .nav {
+  .title,
+  .nav {
     font-size: 40px;
   }
 
@@ -84,7 +85,8 @@
 }
 
 @media (min-width: 1025px) {
-  .title, .nav {
+  .title,
+  .nav {
     font-size: 48px;
   }
 
@@ -95,7 +97,8 @@
 }
 
 @media (min-width: 1281px) {
-  .title, .nav {
+  .title,
+  .nav {
     font-size: 56px;
   }
 
