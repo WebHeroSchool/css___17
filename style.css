@@ -1,0 +1,109 @@
+.line {
+  width: 25px;
+  font-weight: 600;
+  background-color: #8b0000;
+  padding: 2px 5px;
+  margin: 3px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fa8072;
+}
+
+.nav a {
+  color: #8b0000;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.nav a:hover {
+  background: #adff2f;
+}
+
+@media (min-width: 320px) {
+  .title {
+    font-size: 16px;
+  }
+
+  .nav a {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 481px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .title,
+  .nav {
+    font-size: 24px;
+  }
+
+  .nav a {
+    opacity: 1;
+  }
+
+  .buger {
+    opacity: 0;
+  }
+}
+
+@media (min-width: 641px) {
+  .nav {
+    justify-content: space-around;
+  }
+
+  .nav a {
+    flex-grow: 1;
+  }
+
+  .title,
+  .nav {
+    font-size: 32px;
+  }
+
+  .line {
+    width: 30px;
+    padding: 3px 7px;
+  }
+}
+
+@media (min-width: 961px) {
+  .title,
+  .nav {
+    font-size: 40px;
+  }
+
+  .line {
+    width: 35px;
+    padding: 4px 9px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .title,
+  .nav {
+    font-size: 48px;
+  }
+
+  .line {
+    width: 40px;
+    padding: 5px 10px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .title,
+  .nav {
+    font-size: 56px;
+  }
+
+  .line {
+    width: 45px;
+    padding: 6px 12px;
+  }
+}
